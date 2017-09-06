@@ -1,0 +1,44 @@
+/*
+Rule - Selector, Descriptor
+*/
+#MY_TODO{
+    background-color : aqua;
+    text-align: center;
+}
+
+
+
+.breathVertical {
+    margin-top:5px;
+    margin-bottom:5px;
+}
+
+
+.breathHorizontal {
+    margin-left:5px;
+    margin-right:5px;
+}
+
+div.todoStatusACTIVE {
+
+    color : blue;
+}
+
+
+div.todoStatusCOMPLETE{
+    color : green;
+    text-decoration : line-through;
+}
+
+div.todoStatusDELETED {
+    color : red;
+    text-decoration : line-through;
+
+}
+#COMPLETD_TO_DO{
+    border: 1px solid black;
+}
+
+#DELETE_TODO{
+    border: 1px solid black;
+}

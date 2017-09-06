@@ -1,0 +1,43 @@
+<html>
+
+<head>
+    <title> Todo App</title>
+    <link rel="stylesheet" href="styles.css"/>
+    <script src="/script.js" type="text/javascript"></script>
+</head>
+
+
+<body>
+<div id = "MY_TODO">
+<h1>My Todo List</h1>
+</div>
+
+<button  class="button1" onclick="getTodosAJAX()"> Refresh </button>
+<div id="todos_list_div">
+
+
+</div>
+
+<br>
+
+<input type="text" id="new_todo_input" placeholder="Enter Todo Title Here"/>
+
+<input type="button" value="Add Todo" onclick="addTodoAJAX()"/>
+
+<p>Completed Todo</p>
+<div id= "COMPLETD_TO_DO">
+
+</div>
+<br>
+<p> Deleted ToDO</p>
+<div id = "DELETE_TODO">
+
+</div>
+
+
+</body>
+
+
+
+
+</html>
